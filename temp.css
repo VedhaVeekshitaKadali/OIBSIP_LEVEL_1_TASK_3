@@ -1,0 +1,46 @@
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+label{
+    font-size: x-large;
+    font-weight: bold;
+    padding:15px;
+    margin:10px;
+    border:10px;
+}
+select {
+    padding: 5px;
+    margin: 10px;
+  }
+
+input[type="text"] {
+    padding: 15px;
+    width: 150px;
+  }
+#result {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+section label select{
+    background-color: #F8E8EE; 
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+    justify-content: space-between;
+
+}
+.start{
+    background-color:darkcyan;
+    text-align: center;
+}
+.end{
+    background-color: #E3F4F4;
+    color:beige;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}

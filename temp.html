@@ -1,0 +1,57 @@
+<!DOCTYPE htlml>
+<html lang="en">
+<head>
+<meta charset="UTF-8">>
+<meta name="viewport" content="width=device-width,intia-scale=1.0">
+<title>Temperature converter</title>
+<link rel="stylesheet" href="temp.css"/>
+<style>
+    h2
+    {
+        font-size:40px;
+        text-align:center;
+        background-color:chocolate;
+        color:brown;
+
+    }
+   
+    
+    button
+    {
+        padding: 8px 15px;
+        background-color:cornflowerblue;
+        color:white;
+        border:none;
+        cursor:pointer;
+    }
+  
+  </style>
+  </head>
+  <body>
+    <section class="start" >
+    <div>
+    <h2>temperature converter</h2>
+    <label for="temp">degree:</label>
+    <input type="text" id="temp" placeholder="Degree" required>
+
+    <br>
+    <label for="u">Unit:</label>
+    <select id="u">
+        <option value="cel">celsius</option>
+        <option value="fah">fahrenheit</option>
+        <option value="kel">kelvin</option>
+        </select>
+        <br>
+        <button onclick="convertDegree()">Convert</button>
+    </div>
+
+    <div id="resultcontainer"></div>
+    <script src="srp.js"></script>
+    <section class="end">
+        <div>
+            <p>Thank you</p>
+        </div>
+    </section>
+</section>
+</body>
+</html>
